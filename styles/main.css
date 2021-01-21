@@ -1,0 +1,56 @@
+:root{
+	--bg-color: #FF753A;
+	--primary-color: #FECBB1;
+	--secondary-color: #FF2700;
+	--accent-color: #fff;
+}
+
+body{
+	font-family: 'Sintony', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+main{
+	background-color: var(--bg-color);
+	background: linear-gradient(90deg, rgba(255,150,106,1) 0%, var(--bg-color) 60%);
+}
+
+header,
+#cover-page{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	padding: 30px 0;
+
+	border-bottom: solid 2px rgba(255, 255, 255, 0.1);
+}
+
+header nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+header nav ul li{
+	display: inline-block;
+}
+
+header nav ul li a{
+	color: var(--primary-color);
+	font-weight: bold;
+	text-decoration: none;
+	padding: 30px 0;
+
+	border-bottom: solid 2px transparent;
+
+	transition: all 0.5s;
+}
+
+header nav ul li a:hover{
+	color: var(--accent-color);
+	border-bottom: solid; 2px white;
+}
