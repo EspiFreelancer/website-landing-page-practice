@@ -136,6 +136,12 @@ header nav ul li a:hover {
 	padding: 30px 0 90px 0;
 }
 
+#cover-page #info-container #cover img {
+	position: absolute;
+	right: 0;
+	margin-top: 195px;
+}
+
 #features-container {
 	background-color: var(--accent-color);
 	display: flex;
