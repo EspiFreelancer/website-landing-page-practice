@@ -123,13 +123,16 @@ header nav ul li a:hover {
 }
 
 #cover-page #info-container #content ul {
-	list-style-image: url(../img/bullet.svg);
-	padding: 0 30px;
+	list-style: none;
+	padding: 0;
 }
 
 #cover-page #info-container #content li {
+	background-image: url(../img/bullet.svg);
+	background-repeat: no-repeat;
+	background-position-y: center; 
+	padding: 10px 10px 10px 30px;
 	color: var(--accent-color);
-	padding: 15px 0;
 }
 
 #cover-page #info-container #content #button-container {
