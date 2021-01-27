@@ -174,4 +174,77 @@ header nav ul li a:hover {
 	width: 15%;
 }
 
+#organic-container {
+	background: #fff;
+	padding: 40px;
+}
+
+#organic-container #table-comparative-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#organic-container #table-comparative-container .left {
+	background: var(--primary-color);
+	color: var(--secondary-color);
+}
+
+#organic-container #table-comparative-container .right {
+	background: var(--secondary-color);
+	color: var(--accent-color);
+	text-align: right;
+}
+
+#organic-container #table-comparative-container .right h4 {
+	color: var(--primary-color);
+}
+
+#organic-container #table-comparative-container .right .row {
+	flex-direction: row-reverse;
+	border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+#organic-container #table-comparative-container .left .row {
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+
+#organic-container #table-comparative-container .row {
+	display: flex;
+	align-items: center;
+	padding: 40px 0;
+	height: 114px;
+}
+
+#organic-container #table-comparative-container .row .icon {
+	margin: 0 40px;
+}
+
+#organic-container #table-comparative-container .row h4 {
+	font-size: 20px;
+	margin: 0;
+}
+
+#organic-container #table-comparative-container .row .description {
+	width: 40%;
+	font-size: 12px;
+}
+
+#organic-container #cup-container {
+	position: absolute;
+	top: 990px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+}
+
+#organic-container #shopping-container {
+	position: relative;
+	top: -150px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+}
 
