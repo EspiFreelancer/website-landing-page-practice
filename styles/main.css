@@ -248,3 +248,35 @@ header nav ul li a:hover {
 	text-align: center;
 }
 
+#donation-container {
+	background: white;
+}
+
+#donation-container .layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 1100px;
+	gap: 100px;
+	padding: 120px;
+}
+
+#donation-container #donation-image-container {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	height: 450px;
+	background-image: url(../img/forest.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#donation-container .buttons-container {
+	display: flex;
+	padding: 20px 0;
+}
+
+#donation-container .buttons-container a {
+	width: 100%;
+	justify-content: center;
+}
