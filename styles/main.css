@@ -234,9 +234,9 @@ header nav ul li a:hover {
 	font-size: 12px;
 }
 
-#organic-container #cup-container {
+#organic-container #apple-container {
 	position: absolute;
-	top: 990px;
+	top: 114px;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -373,4 +373,10 @@ header nav ul li a:hover {
 	margin: 0 auto;
 	text-align: left;
 	line-height: 30px;
+}
+
+.layout {
+	position: relative;
+	width: 1280px;
+	margin: 0 auto;
 }
