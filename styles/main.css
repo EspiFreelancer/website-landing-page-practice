@@ -431,3 +431,34 @@ header nav ul li a:hover {
 }
 
 
+footer {
+	padding-bottom: 40px;
+}
+
+footer .layout {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+}
+
+footer li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+footer li a {
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+	font-weight: bolder;
+	transition: color 0.5s;
+}
+
+footer li a:hover {
+	color: var(--secondary-color);
+}
+
