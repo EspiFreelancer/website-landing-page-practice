@@ -40,6 +40,11 @@
 	color: var(--praimary-color);
 }
 
+.complement-button {
+	background-color: rgba(255,255,255,0.5);
+	color: var(--secondary-color);
+}
+
 .material-icons-outlined {
 	margin-right: 5px;
 }
@@ -331,4 +336,41 @@ header nav ul li a:hover {
 	align-items: center;
 	box-sizing: border-box;
 	border: solid 1px rgba(255,255,255,0.05);
+}
+
+#special {
+	background-color: white;
+}
+
+#special .layout {
+	width: 1100px;
+}
+
+#special-container {
+	display: flex;
+}
+
+#special-container .panel-left,
+#special-container .panel-right {
+	height: 600px;
+	width: 100%;
+}
+
+#special-container .panel-left {
+	margin-top: 100px;
+	background-color: var(--bg-color);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#special-container .panel-right {
+	background-color: var(--primary-color);
+	text-align: center;
+}
+
+#special-container .panel-right .content-block {
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 30px;
 }
