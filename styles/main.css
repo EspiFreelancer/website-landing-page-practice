@@ -380,3 +380,54 @@ header nav ul li a:hover {
 	width: 1280px;
 	margin: 0 auto;
 }
+
+#contact {
+	background-color: white;
+	padding: 100px 0;
+}
+
+#contact .back-layer {
+	background-color: var(--primary-color);
+	width: 73%;
+	padding: 80px;
+	box-sizing: border-box;
+}
+
+#contact .front-layer {
+	display: grid;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	height: 326px;
+	background-image: url(../img/half_leaf.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border: solid 2px red;
+}
+
+#contact .front-layer .contact-info {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	font-weight: bolder;
+	font-size: 20px;
+	width: 35%;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#contact .front-layer .contact-info .info {
+	display: flex;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+#contact .front-layer .contact-info .info:nth-child(1) {
+	border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+#contact .front-layer .contact-info .info img {
+	margin-right: 40px;
+}
+
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   fill="none"
+   version="1.1"
+   id="svg940"
+   sodipodi:docname="phone.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata946">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs944" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview942"
+     showgrid="false"
+     inkscape:zoom="5.3521635"
+     inkscape:cx="66.13243"
+     inkscape:cy="47.89467"
+     inkscape:current-layer="svg940" />
+  <circle
+     cx="24"
+     cy="24"
+     r="24"
+     id="circle936"
+     fill="#C5D5D4"
+     opacity="0.7"
+     style="fill:#fcf0f3;fill-opacity:1" />
+  <path
+     d="M26.402 32.3479C28.1668 33.471 30.4932 33.2304 31.9371 31.7864L32.5789 31.1446C33.1404 30.5831 33.1404 29.6205 32.5789 29.0589L29.9316 26.4117C29.3701 25.8502 28.4074 25.8502 27.8459 26.4117C27.6052 26.6524 27.2042 26.8128 26.8031 26.8128C26.402 26.8128 26.0009 26.6524 25.7602 26.4117L21.5888 22.2403C21.0273 21.6788 21.0273 20.7161 21.5888 20.1546C21.8294 19.9139 21.9899 19.5128 21.9899 19.1117C21.9899 18.7106 21.9097 18.3095 21.5888 18.0689L19.0218 15.4216C18.38 14.8601 17.4976 14.8601 16.8558 15.4216L16.2943 16.0634C14.7701 17.5073 14.5295 19.8337 15.6526 21.5183C18.5405 25.7699 22.2305 29.46 26.402 32.3479Z"
+     stroke="#14453D"
+     stroke-width="1.7"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path938"
+     style="stroke:#ff5555" />
+</svg>
